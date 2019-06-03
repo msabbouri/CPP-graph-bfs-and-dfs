@@ -1,6 +1,6 @@
 #pragma once
 /*
- * graph.hpp
+ * template.hpp
  * Adjacency-list graph implementation
  */
 #include <climits> // For INT_MAX, INT_MIN
