@@ -1,14 +1,11 @@
-/*
- * assign7_test.cpp
- * Assignment 7 test code.
- */
+
 #include <iostream>
 #include <vector>
 using std::cout;
 using std::endl;
 using std::vector;
 
-#include "graph.hpp"
+#include "skeleton.hpp"
 
 // Quick way to check if condition is false; if so, print message and return false
 #define check(cond,msg) {if(!(cond)) { std::cout << "FAILED: " << msg << std::endl; return false; }}
